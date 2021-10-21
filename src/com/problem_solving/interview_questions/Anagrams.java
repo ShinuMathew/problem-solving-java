@@ -10,9 +10,6 @@ import java.util.List;
  * Output : [["eat", "ate", "tea"], ["tan", "nat"], ["bat"]] 
  * NOTE : Anangrams are words containing similar characters. Ex: eat, ate, tea
  * 
- * @implNote
- * 
- * 
  */
 public class Anagrams {
 
@@ -32,7 +29,6 @@ public class Anagrams {
 						anagrams.add(dataSet[j]);
 						result.get(currentSet).add(dataSet[j]);
 					}
-
 				}
 				currentSet++;
 			}
